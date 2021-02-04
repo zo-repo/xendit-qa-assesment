@@ -5,20 +5,20 @@ This is repo is to demonstrate the usage of automation testing framework using C
 The reason of using OCR for this automation testing is because the target application to be tested is using canvas element, it which most automation framework like selenium doesn't have the ability yet to extract values from canvas. Therefore to overcome that problem, OCR text recognition is the best approach for this assessment.
 
 ## Diagram Overview
-![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/main/docs/OCR-testing.png?raw=true)
+![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/OCR-testing.png?raw=true)
 
 ## Screenshots / Screen Recording
 ### Quick screen recording of executing tests
-![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/main/docs/execute-test.gif)
+![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/execute-test.gif?raw=true)
 
 ### Report Sample
-![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/main/docs/sample-report.png?raw=true)
+![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/sample-report.png?raw=true)
 
 ### Online Calculator (#canvas element)
-![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/main/docs/online_calculator_ss.png?raw=true)
+![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/online_calculator_ss.png?raw=true)
 
 ### OCR sample (take value from onlien calculator result screen)
-![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/main/docs/ocr-screenshot.png?raw=true)
+![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/OCR-testing.png?raw=true)
 
 ## Dependencies
 - [Node.js](https://nodejs.org/en/download/)
