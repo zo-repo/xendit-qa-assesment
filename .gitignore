@@ -1,0 +1,4 @@
+node_modules
+*.log
+*.traineddata 
+.DS_Store

@@ -1,0 +1,1337 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Online Calculator Feature Addition operation",
+    "line": 1,
+    "id": "online-calculator-feature-addition-operation",
+    "tags": [],
+    "uri": "features/online-calculator-addition.feature",
+    "elements": [
+      {
+        "id": "online-calculator-feature-addition-operation;test-arithmetic-addition-function-between-2-numbers,-9-and-4",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test arithmetic addition function between 2 numbers, 9 and 4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the online calculator is loaded, I press the key \"9\",\"+\",\"4\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the online calculator will show the result of \"13\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1658000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-addition-operation;test-arithmetic-addition-function-between-2-places-decimal-numbers,-10.11-and-22.4",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test arithmetic addition function between 2 places decimal numbers, 10.11 and 22.4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the online calculator is loaded, I press the key \"10.1\",\"+\",\"22.4\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1477000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the online calculator will show the result of \"32.5\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1428000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-addition-operation;test-arithmetic-addition-function-between-2-places-decimal-numbers,-0.11-and-22",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test arithmetic addition function between 2 places decimal numbers, 0.11 and 22",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the online calculator is loaded, I press the key \"0.11\",\"+\",\"22\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the online calculator will show the result of \"22.11\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1408000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\u001b[32m+ actual\u001b[39m \u001b[31m- expected\u001b[39m\n\n\u001b[32m+\u001b[39m '22.1'\n\u001b[31m-\u001b[39m '22.11'\n       ^\n    + expected - actual\n\n    -22.1\n    +22.11\n\n    at World.<anonymous> (/Users/syariffudin/Documents/GitHub/nightwatch-api/packages/cucumber-selenium-example/step-definitions/calculator_step_definition.js:20:10)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-addition-operation;test-arithmetic-addition-function-between-2-negative-numbers,--10-and--9",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Test arithmetic addition function between 2 negative numbers, -10 and -9",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the online calculator is loaded, I press the key \"-10\",\"+\",\"-9\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the online calculator will show the result of \"-19\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1391000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-addition-operation;test-arithmetic-addition-function-between-1-big-numbers-and-1-small-number,-42123231231-and-1",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Test arithmetic addition function between 1 big numbers and 1 small number, 42123231231 and 1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the online calculator is loaded, I press the key \"42123231231\",\"+\",\"1\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the online calculator will show the result of \"421232313\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1553000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-addition-operation;test-arithmetic-addition-function-between-smaller-decimal-places,-0.0000001-and-0.000003",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Test arithmetic addition function between smaller decimal places, 0.0000001 and 0.000003",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "the online calculator is loaded, I press the key \"0.0000001\",\"+\",\"0.000003\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the online calculator will show the result of \"0.0000031\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1382000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Online Calculator Feature Clear screen operation",
+    "line": 1,
+    "id": "online-calculator-feature-clear-screen-operation",
+    "tags": [],
+    "uri": "features/online-calculator-clear.feature",
+    "elements": [
+      {
+        "id": "online-calculator-feature-clear-screen-operation;test-clear-function",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Clear function",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the online calculator is loaded, I press the key \"9\",\"+\",\"4\" and finally \"C\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the online calculator will show the result of \"0\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1436000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Online Calculator Feature Divide 0 operation",
+    "line": 1,
+    "id": "online-calculator-feature-divide-0-operation",
+    "tags": [],
+    "uri": "features/online-calculator-divide-zero.feature",
+    "elements": [
+      {
+        "id": "online-calculator-feature-divide-0-operation;test-divide-by-zero-function",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Divide by Zero function",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the online calculator is loaded, I press the key \"9\",\"/\",\"0\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the online calculator will show the result of \"Error\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1638000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Online Calculator Feature Division operation",
+    "line": 1,
+    "id": "online-calculator-feature-division-operation",
+    "tags": [],
+    "uri": "features/online-calculator-division.feature",
+    "elements": [
+      {
+        "id": "online-calculator-feature-division-operation;test-arithmetic-division-function-between-2-numbers,-9-and-4",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test arithmetic division function between 2 numbers, 9 and 4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the online calculator is loaded, I press the key \"9\",\"/\",\"4\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1459000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the online calculator will show the result of \"2.25\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1365000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-division-operation;test-arithmetic-division-function-between-2-places-decimal-numbers,-10.11-and-22.4",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test arithmetic division function between 2 places decimal numbers, 10.11 and 22.4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the online calculator is loaded, I press the key \"10.1\",\"/\",\"22.4\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the online calculator will show the result of \"0.45089286\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1465000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-division-operation;test-arithmetic-division-function-between-2-places-decimal-numbers,-22-and-0.11",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test arithmetic division function between 2 places decimal numbers, 22 and 0.11",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the online calculator is loaded, I press the key \"22\",\"/\",\"0.11\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the online calculator will show the result of \"200\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1371000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-division-operation;test-arithmetic-division-function-between-2-negative-numbers,--10-and--9",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Test arithmetic division function between 2 negative numbers, -10 and -9",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the online calculator is loaded, I press the key \"-10\",\"/\",\"-9\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the online calculator will show the result of \"-1\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1309000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-division-operation;test-arithmetic-division-function-between-1-big-numbers-and-1-small-number,-42123231231-and-1",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Test arithmetic division function between 1 big numbers and 1 small number, 42123231231 and 1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the online calculator is loaded, I press the key \"42123231231\",\"/\",\"1\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the online calculator will show the result of \"421232312\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1510000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-division-operation;test-arithmetic-division-function-between-smaller-decimal-places,-0.0000001-and-0.000003",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Test arithmetic division function between smaller decimal places, 0.0000001 and 0.000003",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "the online calculator is loaded, I press the key \"0.0000001\",\"/\",\"0.000003\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the online calculator will show the result of \"0.03333333\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1504000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Online Calculator Feature Multiplcation operation",
+    "line": 1,
+    "id": "online-calculator-feature-multiplcation-operation",
+    "tags": [],
+    "uri": "features/online-calculator-multiplication.feature",
+    "elements": [
+      {
+        "id": "online-calculator-feature-multiplcation-operation;test-arithmetic-multiplication-function-between-2-numbers,-9-and-4",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test arithmetic multiplication function between 2 numbers, 9 and 4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the online calculator is loaded, I press the key \"9\",\"*\",\"4\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1452000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the online calculator will show the result of \"36\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1341000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-multiplcation-operation;test-arithmetic-multiplication-function-between-2-places-decimal-numbers,-10.11-and-22.4",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test arithmetic multiplication function between 2 places decimal numbers, 10.11 and 22.4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the online calculator is loaded, I press the key \"10.1\",\"*\",\"22.4\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1441000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the online calculator will show the result of \"226.24\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1366000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-multiplcation-operation;test-arithmetic-multiplication-function-between-2-places-decimal-numbers,-22-and-0.11",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test arithmetic multiplication function between 2 places decimal numbers, 22 and 0.11",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the online calculator is loaded, I press the key \"22\",\"*\",\"0.11\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the online calculator will show the result of \"242\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1323000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-multiplcation-operation;test-arithmetic-multiplication-function-between-2-negative-numbers,--10-and--9",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Test arithmetic multiplication function between 2 negative numbers, -10 and -9",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the online calculator is loaded, I press the key \"-10\",\"*\",\"-9\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the online calculator will show the result of \"-1\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1294000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-multiplcation-operation;test-arithmetic-multiplication-function-between-1-big-numbers-and-1-small-number,-42123231231-and-1",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Test arithmetic multiplication function between 1 big numbers and 1 small number, 42123231231 and 1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the online calculator is loaded, I press the key \"42123231231\",\"*\",\"1\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the online calculator will show the result of \"421232312\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1452000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-multiplcation-operation;test-arithmetic-multiplication-function-between-smaller-decimal-places,-0.0000001-and-0.000003",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Test arithmetic multiplication function between smaller decimal places, 0.0000001 and 0.000003",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "the online calculator is loaded, I press the key \"0.0000001\",\"*\",\"0.000003\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the online calculator will show the result of \"3e-13\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1340000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Online Calculator Feature Subtraction",
+    "line": 1,
+    "id": "online-calculator-feature-subtraction",
+    "tags": [],
+    "uri": "features/online-calculator-subtraction.feature",
+    "elements": [
+      {
+        "id": "online-calculator-feature-subtraction;test-arithmetic-subtraction-function-between-2-numbers,-9-and-4",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test arithmetic subtraction function between 2 numbers, 9 and 4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the online calculator is loaded, I press the key \"9\",\"-\",\"4\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the online calculator will show the result of \"5\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1303000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-subtraction;test-arithmetic-subtraction-function-between-2-places-decimal-numbers,-10.11-and-22.4",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test arithmetic subtraction function between 2 places decimal numbers, 10.11 and 22.4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the online calculator is loaded, I press the key \"10.1\",\"-\",\"22.4\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the online calculator will show the result of \"-12.3\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1360000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-subtraction;test-arithmetic-subtraction-function-between-2-places-decimal-numbers,-22-and-0.11",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test arithmetic subtraction function between 2 places decimal numbers, 22 and 0.11",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the online calculator is loaded, I press the key \"22\",\"-\",\"0.11\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the online calculator will show the result of \"21.89\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1351000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-subtraction;test-arithmetic-subtraction-function-between-2-negative-numbers,--10-and--9",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Test arithmetic subtraction function between 2 negative numbers, -10 and -9",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the online calculator is loaded, I press the key \"-10\",\"-\",\"-9\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the online calculator will show the result of \"-19\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1314000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-subtraction;test-arithmetic-subtraction-function-between-1-big-numbers-and-1-small-number,-42123231231-and-1",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Test arithmetic subtraction function between 1 big numbers and 1 small number, 42123231231 and 1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the online calculator is loaded, I press the key \"42123231231\",\"-\",\"1\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the online calculator will show the result of \"421232311\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1536000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "online-calculator-feature-subtraction;test-arithmetic-subtraction-function-between-smaller-decimal-places,-0.0000001-and-0.000003",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Test arithmetic subtraction function between smaller decimal places, 0.0000001 and 0.000003",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I open a browser and open the online calculator",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "the online calculator is loaded, I press the key \"0.0000001\",\"-\",\"0.000003\" and finally \"=\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1434000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the online calculator will show the result of \"-0.0000029\"",
+            "match": {
+              "location": "step-definitions/calculator_step_definition.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1477000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
