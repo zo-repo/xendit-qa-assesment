@@ -8,8 +8,6 @@ The reason of using OCR for this automation testing is because the target applic
 ![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/OCR-testing.png?raw=true)
 
 ## Screenshots / Screen Recording
-### Quick screen recording of executing tests
-![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/execute-test.gif?raw=true)
 
 ### Report Sample
 ![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/sample-report.png?raw=true)
@@ -18,7 +16,10 @@ The reason of using OCR for this automation testing is because the target applic
 ![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/online_calculator_ss.png?raw=true)
 
 ### OCR sample (take value from onlien calculator result screen)
-![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/OCR-testing.png?raw=true)
+![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/ocr-screenshot.png?raw=true)
+
+### Quick screen recording of executing tests
+![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/execute-test.gif?raw=true)
 
 ## Dependencies
 - [Node.js](https://nodejs.org/en/download/)
