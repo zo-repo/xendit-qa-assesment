@@ -12,7 +12,7 @@ async function getTextInImage(sourceFile) {
 
   // source from https://github.com/oliver-moran/jimp
   const modifyImage = await jimp.read(sourceFile);
-  modifyImage.resize(1080, jimp.AUTO);
+  modifyImage.resize(1080, 801);
   modifyImage.quality(100);
   modifyImage.crop(260, 20, 550, 110); // crop only the result screen part to improve OCR reading
   modifyImage.greyscale();
@@ -26,8 +26,8 @@ async function getTextInImage(sourceFile) {
   const { data: { text } } = await ocrworker.recognize(modifiedImage);
   await ocrworker.terminate();
 
+  // modification text
   const result = text.split('\n')[0].replace('|', '').split(' ');
-
   result.forEach(async (item) => {
     if (stringRaw === '') {
       stringRaw = item;
@@ -35,6 +35,7 @@ async function getTextInImage(sourceFile) {
       stringRaw = `${stringRaw}${item}`;
     }
   });
+  stringRaw = stringRaw.replace('|','').replace('[','').replace(']','');
   return stringRaw;
 }
 
