@@ -17,7 +17,7 @@ The reason of using OCR for this automation testing is because the target applic
 ### Online Calculator (#canvas element)
 ![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/online_calculator_ss.png?raw=true)
 
-### OCR sample (take value from onlien calculator result screen)
+### OCR sample (take value from online calculator result screen)
 ![alt text](https://github.com/zo-repo/xendit-qa-assessment/blob/master/docs/ocr-screenshot.png?raw=true)
 
 ### Quick screen recording of executing tests
