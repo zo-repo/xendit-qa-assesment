@@ -1,5 +1,7 @@
 # Xendit Hiring Assessment 
 
+*Important: Please read all below before pulling this repo.*
+
 This is repo is to demonstrate the usage of automation testing framework using CucumberJs, Selenium, NightWatch-api and OCR technology.
 
 The reason of using OCR for this automation testing is because the target application to be tested is using canvas element, it which most automation framework like selenium doesn't have the ability yet to extract values from canvas. Therefore to overcome that problem, OCR text recognition is the best approach for this assessment.
@@ -56,7 +58,23 @@ npm run report #to see the run report
 ```bash
 npm outdated
 ```
+- if you face failures during the test where it should not suppose too, please don't do any interaction with your machine while it is running, let it run themselve for a few seconds.
+- The screensize of the running machine give massive effect to the test results, try run it headless this may fixed the problem.
+```bash
+npm run test
+```
 
+## Known Issue
+- Sometimes the OCR failed to read some of the numbers like negative signs, decimal points, letters.
+- Currently there is one failure when running headless, 22.11 but the OCR only read it as 2211.
+- Running on normal browser (not headless) will high likely give more test failures.
+- Running on smaller screen will increase test failures (due to the screenshot size difference).
+
+## Tested On
+```
+Machine: MacOS X
+Browser: Chrome
+```
 
 ## License
 [Open Source](https://opensource.com/)
